@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras de Productos Digitales - Comunidad Oficial</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <main class="page-container">
+
+        <header class="hero">
+            <div class="logo-wrapper">
+                <img src="img/logo.jpg" alt="Logo de Planeta Digital" class="main-animated-logo">
+            </div>
+            <h1 class="glow-text">Compras de Productos Digitales</h1>
+            <p class="subtitle">Comunidad Oficial y Verificada</p>
+        </header>
+
+        <section class="glass-card rules-section glass-reveal">
+            <h2 class="section-title"><i class="fa-solid fa-scroll text-primary"></i> Reglamento Oficial</h2>
+            <p class="rules-intro">Con el objetivo de mantener orden, seguridad y evitar estafas, se establecen las
+                siguientes reglas para la compra y venta dentro del grupo.</p>
+
+            <div class="rules-list">
+                <div class="rule-item">
+                    <span class="rule-number">1</span>
+                    <p>Solo se permite la venta de productos digitales.</p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-number">2</span>
+                    <p>Las personas incluidas en la lista de vendedores de confianza pueden publicar su lista de
+                        productos hasta 4 veces por día.</p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-number">3</span>
+                    <p>Las personas que no estén en la lista de confianza solo podrán publicar 1 vez por día.</p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-number">4</span>
+                    <p>Se recomienda a todos los compradores verificar bien el producto y al vendedor antes de realizar
+                        cualquier pago.</p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-number">5</span>
+                    <p>El grupo y sus administradores no se hacen responsables por acuerdos realizados entre compradores
+                        y vendedores.</p>
+                </div>
+                <div class="rule-item rule-critical">
+                    <span class="rule-number">6</span>
+                    <p>Cualquier persona que incumpla las reglas, haga spam o intente estafar será eliminada del grupo.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-card warnings-section glass-reveal">
+            <h2 class="section-title text-warning"><i class="fa-solid fa-triangle-exclamation"></i> Importante</h2>
+            <p>Si alguien intenta vender fuera de las reglas o de forma sospechosa, se recomienda reportarlo a los
+                administradores.</p>
+            <div class="badges-container">
+                <span class="badge badge-red"><i class="fa-solid fa-ban"></i> Reglas Anti-Estafas</span>
+                <span class="badge badge-blue"><i class="fa-solid fa-bullhorn"></i> Reglas de Publicación</span>
+                <span class="badge badge-yellow"><i class="fa-solid fa-shield-halved"></i> Seguridad</span>
+            </div>
+            <p class="admin-sig">Alan Danddy.</p>
+        </section>
+
+        <section class="sellers-wrapper">
+            <h2 class="section-title text-success glass-reveal"><i class="fa-solid fa-badge-check"></i> Vendedores de
+                Confianza</h2>
+            <div class="sellers-grid" id="vendedores-confianza">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <section class="sellers-wrapper">
+            <h2 class="section-title text-info glass-reveal"><i class="fa-solid fa-star"></i> Lista de Proveedores
+                Verificados #2</h2>
+            <div class="sellers-grid" id="proveedores-verificados-2">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
