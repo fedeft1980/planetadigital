@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "Gustavo", linkWa: "https://wa.me/+5493584243017", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" },
 
         { 
-            name: "Federico F Torres",linkWa: "https://wa.me/+5492657219227",linkTienda: "revendedores-kappa.vercel.app/", 
+            name: "Federico Torres",linkWa: "https://wa.me/+5492657219227",linkTienda: "revendedores-kappa.vercel.app/", 
             imagenTienda: "logoft.png" 
         },
 
