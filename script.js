@@ -5,22 +5,22 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "Gustavo", linkWa: "https://wa.me/+5493584243017", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" },
 
         { 
-            name: "Federico F Torres",linkWa: "https://wa.me/+5492657219227",linkTienda: "#PONER_LINK_AQUI", 
-            imagenTienda: "img/logoft.png" 
+            name: "Federico F Torres",linkWa: "https://wa.me/+5492657219227",linkTienda: "revendedores-kappa.vercel.app/", 
+            imagenTienda: "logoft.png" 
         },
 
         { name: "Franco Rivero", linkWa: "https://wa.me/+5493856183712", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" },
         { name: "Leila", linkWa: "https://wa.me/+5493412810132", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" },
         { name: "Erico", linkWa: "https://wa.me/+5493757618408", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" },
         { name: "Rulo", linkWa: "https://wa.me/+5491154767460", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" },
-        { name: "Eli", linkWa: "https://wa.me/+5491123443298", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "img/logoeli.jpg" },
-        { name: "Luis", linkWa: "https://wa.me/+5491171104707", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "img/logola.jpg" },
+        { name: "Eli", linkWa: "https://wa.me/+5491123443298", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "logoeli.jpg" },
+        { name: "Luis", linkWa: "https://wa.me/+5491171104707", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "logola.jpg" },
     ];
 
     // === PROVEEDORES VERIFICADOS 2 ===
     const proveedoresVerificados2 = [
-        { name: "Cuervo Store", linkWa: "https://wa.me/message/HQ4DLAV7IGZEE1", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "img/logocs.jpg" },
-        { name: "Leonel", linkWa: "https://wa.me/5493777844725", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "img/logotl.jpg" },
+        { name: "Cuervo Store", linkWa: "https://wa.me/message/HQ4DLAV7IGZEE1", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "logocs.jpg" },
+        { name: "Leonel", linkWa: "https://wa.me/5493777844725", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "logotl.jpg" },
         { name: "Mile Almiron", linkWa: "https://wa.me/+5493624110890", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" },
         { name: "Víctor 99", linkWa: "https://wa.me/message/VPZ3NL7TISPRL1", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" }
     ];
