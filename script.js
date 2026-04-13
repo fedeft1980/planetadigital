@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: "Leonel", linkWa: "https://wa.me/5493777844725", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "logotl.jpg" },
         { name: "Mile Almiron", linkWa: "https://wa.me/+5493624110890", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" },
         { name: "Víctor 99", linkWa: "https://wa.me/message/VPZ3NL7TISPRL1", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "" }
+        { name: "Alexis Streaming", linkWa: "https://wa.me/+2657607433", linkTienda: "#PONER_LINK_AQUI", imagenTienda: "alexis" }
     ];
 
     function createSellerCards(containerId, sellersList) {
